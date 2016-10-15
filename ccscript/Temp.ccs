@@ -10,13 +10,13 @@ Tempy_Le_Temp:
 Dark_Onett_Intro:
 	music_stop
 	"[1f 15 6a 00 79 02 01][1f 61][10 78][1f 1f 6a 00 06]"
-	"@As you go through the secret passage in the trees,{pause(30)} the trees turn into a greenish hue,{pause(30)} and the fresh scent of Onett in the Summertime goes through the otherwise thick air of the woods." next
-	"@But,{pause(30)} as you continue walking through the seemingly endless path through this dense forest,{pause(30)} the trees trade their green colors to a darker,{pause(30)} more ominous tone,{pause(30)} and the Summer smells dissipate into the ever growing thick air of the forest." next
+	"@As you go through the secret passage,{pause(30)} the trees turn into a greenish hue,{pause(30)} and the fresh scent of Onett in the Summertime goes through the otherwise thick air of the woods." next
+	"@But,{pause(30)} as you continue walking through the seemingly endless path through this dense forest,{pause(30)} the trees trade their green colors to a darker,{pause(30)} more ominous tone,{pause(30)} and the Summer smells dissipate into the ever growing thick air of the forest.{music(114)}" next
 	"@As you walk in these darker parts of the woods,{pause(30)} you start to realize where you are.{pause(80)} You thought this place was only a legend,{pause(30)} simply started as a theory to explain Ness' disapearance." next
 	"@No,{pause(30)} this can't be real.{pause(80)} But,{pause(30)} this{pause(10)} IS{pause(10)} real.{pause(80)} WAY{pause(10)} too real." linebreak
 	"@Welcome{pause(80)} to your worst nightmare.{pause(80)} The one...{pause(80)} the only...{pause(80)}" next
-	"@The Dark Forests{pause(50)}" warp(68)
-	"of Onett.{pause(80)}" end
+	"@Dark Forests{pause(50)}" warp(68)
+	"of Onett.{pause(80)}" eob
 Ness_Intro:
 	"[1f 15 6a 00 79 02 01][1f 61][10 78][1f 1f 6a 00 06]"
 	"@After this whole big lead up to this boss,{pause(30)} you wonder who-or what-it could be." next
@@ -36,13 +36,18 @@ Ness_Battle_Intro:
 Ness_Attacks: //old function
 	"'Varik...{pause(50)} you don't have to do this...'{pause(120)}" next
 	"'VARIK!!!{pause(50)} YOU DON'T HAVE TO DO THIS!!!'{pause(120)}{music(94)}" eob
-Ness_Bat:
+Ness_Bat: //use this for Ness' attacks, agrastios
 	"@Ness uses his bat!" eob
-Ness_PSI:
+Ness_PSI: //ditto
 	"@Ness uses PK Rockin'!" eob
-Ness_Brutal:
+Ness_Brutal: //ditto
 	"@Ness beats you down onto the ground!" eob
-Ness_Shotgun:
+Ness_Shotgun: //ditto
 	"@Ness pulls out a shotgun out of nowhere and starts shooting, no mercy!" eob
 A_Sign:
-	"@You feel as if something has changed in the area... {set(500)}"
+	"@You feel as if something has changed in the area... {set(500)}" eob
+Lazy_Developers:
+	"@To rush the release of the hack before October 31st came around," next
+	"@the developers got lazy and left these new tilesets to be fixed in v2.1," next
+	"@so you'll have to walk around this passage by going up that walkway over there." next
+	"@This is why we don't rush things, people!" end

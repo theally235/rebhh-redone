@@ -6,8 +6,8 @@ CCScript Compilation Summary
 Compilation statistics
 =================================================================
 Compilation start:           $f10000
-Compilation end:             $f10b07
-Total compiled size:         2823 bytes
+Compilation end:             $f10c06
+Total compiled size:         3078 bytes
 Fragmented space:            0 bytes
 -----------------------------------------------------------------
 
@@ -16,11 +16,11 @@ Module information
 =================================================================
 Name                         Address     Size
 -----------------------------------------------------------------
-asm65816                     $f10681      1158   bytes
-asm_data                     $f10b07      0      bytes
-Temp                         $f10000      1665   bytes
-stdarg                       $f10b07      0      bytes
-std                          $f10b07      0      bytes
+asm65816                     $f10780      1158   bytes
+asm_data                     $f10c06      0      bytes
+Temp                         $f10000      1920   bytes
+stdarg                       $f10c06      0      bytes
+std                          $f10c06      0      bytes
 -----------------------------------------------------------------
 
 
@@ -30,16 +30,16 @@ Label locations
 Labels in module asm65816
 Name                         Address
 -----------------------------------------------------------------
-GutsEquip_Text               $f10687
-LuckEquip_Text               $f1068c
-NOROOM                       $f10691
-NOROOM_End                   $f10a23
-NewEquipmentStats            $f10a27
-NewEquipmentStatsOutput      $f10ab0
-NewEquipmentStats_CheckIfZero $f10a5b
-NewEquipmentStats_End        $f10aaf
-NewEquipmentStats_Skip       $f10a57
-SpeedEquip_Text              $f10681
+GutsEquip_Text               $f10786
+LuckEquip_Text               $f1078b
+NOROOM                       $f10790
+NOROOM_End                   $f10b22
+NewEquipmentStats            $f10b26
+NewEquipmentStatsOutput      $f10baf
+NewEquipmentStats_CheckIfZero $f10b5a
+NewEquipmentStats_End        $f10bae
+NewEquipmentStats_Skip       $f10b56
+SpeedEquip_Text              $f10780
 -----------------------------------------------------------------
 
 
@@ -52,15 +52,16 @@ Name                         Address
 Labels in module Temp
 Name                         Address
 -----------------------------------------------------------------
-A_Sign                       $f10649
+A_Sign                       $f1063b
 Dark_Onett_Intro             $f1005a
-Ness_Attacks                 $f10553
-Ness_Bat                     $f105b0
-Ness_Battle_Intro            $f10526
-Ness_Brutal                  $f105db
-Ness_Intro                   $f10390
-Ness_PSI                     $f105c4
-Ness_Shotgun                 $f10601
+Lazy_Developers              $f10674
+Ness_Attacks                 $f10545
+Ness_Bat                     $f105a2
+Ness_Battle_Intro            $f10518
+Ness_Brutal                  $f105cd
+Ness_Intro                   $f10382
+Ness_PSI                     $f105b6
+Ness_Shotgun                 $f105f3
 Tempy_Le_Temp                $f10000
 -----------------------------------------------------------------
 

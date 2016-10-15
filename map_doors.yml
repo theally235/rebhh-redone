@@ -4477,7 +4477,23 @@
   - Type: ladder
     X: 9
     Y: 23
-  15: null
+  - Type: object
+    X: 20
+    Y: 27
+    Text Pointer: Lazy_Developers.Temp
+  - Type: object
+    X: 19
+    Y: 28
+    Text Pointer: Lazy_Developers.Temp
+  15:
+  - Type: object
+    X: 23
+    Y: 27
+    Text Pointer: Lazy_Developers.Temp
+  - Type: object
+    X: 24
+    Y: 28
+    Text Pointer: Lazy_Developers.Temp
   16:
   - Type: door
     Destination X: 103
@@ -4515,6 +4531,12 @@
     Style: 1
     Text Pointer: $0
     Direction: down
+  - Type: ladder
+    X: 1
+    Y: 18
+  - Type: ladder
+    X: 1
+    Y: 19
   17: null
   18: null
   19: null
