@@ -1,0 +1,6 @@
+import asm65816
+
+//Have title screen skip gas station screen and go straight to static title screen
+ROM[0xC4DB33] = "[4C F9 DB]"
+
+ROM[0xC422E4] = "[09]"

@@ -1,0 +1,79 @@
+C:/Users/Max/Desktop/Earthbound Stuff/Earthbound Hacks/Output ROM/Halloween Hack Edit.smc
+CCScript Compilation Summary
+============================
+
+
+Compilation statistics
+=================================================================
+Compilation start:           $f10000
+Compilation end:             $f10b07
+Total compiled size:         2823 bytes
+Fragmented space:            0 bytes
+-----------------------------------------------------------------
+
+
+Module information
+=================================================================
+Name                         Address     Size
+-----------------------------------------------------------------
+asm65816                     $f10681      1158   bytes
+asm_data                     $f10b07      0      bytes
+Temp                         $f10000      1665   bytes
+stdarg                       $f10b07      0      bytes
+std                          $f10b07      0      bytes
+-----------------------------------------------------------------
+
+
+Label locations
+=================================================================
+
+Labels in module asm65816
+Name                         Address
+-----------------------------------------------------------------
+GutsEquip_Text               $f10687
+LuckEquip_Text               $f1068c
+NOROOM                       $f10691
+NOROOM_End                   $f10a23
+NewEquipmentStats            $f10a27
+NewEquipmentStatsOutput      $f10ab0
+NewEquipmentStats_CheckIfZero $f10a5b
+NewEquipmentStats_End        $f10aaf
+NewEquipmentStats_Skip       $f10a57
+SpeedEquip_Text              $f10681
+-----------------------------------------------------------------
+
+
+Labels in module asm_data
+Name                         Address
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+Labels in module Temp
+Name                         Address
+-----------------------------------------------------------------
+A_Sign                       $f10649
+Dark_Onett_Intro             $f1005a
+Ness_Attacks                 $f10553
+Ness_Bat                     $f105b0
+Ness_Battle_Intro            $f10526
+Ness_Brutal                  $f105db
+Ness_Intro                   $f10390
+Ness_PSI                     $f105c4
+Ness_Shotgun                 $f10601
+Tempy_Le_Temp                $f10000
+-----------------------------------------------------------------
+
+
+Labels in module stdarg
+Name                         Address
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
+Labels in module std
+Name                         Address
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+
+
