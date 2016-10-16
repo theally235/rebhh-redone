@@ -11,7 +11,7 @@ Dark_Onett_Intro:
 	music_stop
 	"[1f 15 6a 00 79 02 01][1f 61][10 78][1f 1f 6a 00 06]"
 	"@As you go through the secret passage,{pause(30)} the trees turn into a greenish hue,{pause(30)} and the fresh scent of Onett in the Summertime goes through the otherwise thick air of the woods." next
-	"@But,{pause(30)} as you continue walking through the seemingly endless path through this dense forest,{pause(30)} the trees trade their green colors to a darker,{pause(30)} more ominous tone,{pause(30)} and the Summer smells dissipate into the ever growing thick air of the forest.{music(114)}" next
+	"{music(114)}@But,{pause(30)} as you continue walking through the seemingly endless path through this dense forest,{pause(30)} the trees trade their green colors to a darker,{pause(30)} more ominous tone,{pause(30)} and the Summer smells dissipate into the ever growing thick air of the forest." next
 	"@As you walk in these darker parts of the woods,{pause(30)} you start to realize where you are.{pause(80)} You thought this place was only a legend,{pause(30)} simply started as a theory to explain Ness' disapearance." next
 	"@No,{pause(30)} this can't be real.{pause(80)} But,{pause(30)} this{pause(10)} IS{pause(10)} real.{pause(80)} WAY{pause(10)} too real." linebreak
 	"@Welcome{pause(80)} to your worst nightmare.{pause(80)} The one...{pause(80)} the only...{pause(80)}" next
@@ -22,8 +22,8 @@ Ness_Intro:
 	"@After this whole big lead up to this boss,{pause(30)} you wonder who-or what-it could be." next
 	"@Is it a Golden Starman DX?" next
 	"@Or is it an evil tenda?" next
-	"@Maybe a Blue Antoi- wait, that's already an enemy." next
-	"@But maybe it's a human boy-turned-skeleton.{pause(60)}" next
+	"@Maybe it's a Blue Antoi-{pause(30)} wait, that's already an enemy..." next
+	"@Well... maybe it's a human boy-turned-skeleton.{pause(60)}" next
 	".{pause(120)}.{pause(120)}.{pause(120)}" next
 	"@Nah!{pause(80)} That's a stupid theory!" next
 	"@Wait!{pause(80)} It's turning around!" next
@@ -33,7 +33,7 @@ Ness_Intro:
 	"{battle(482)}" end
 Ness_Battle_Intro:
 	"@It's the last of the Lost Heroes,{pause(50)} Ness!{pause(90)}" eob
-Ness_Attacks: //old function
+Ness_Attacks: //old function, would have been to make him switch enemy numbers, similar to Dr. Andonuts
 	"'Varik...{pause(50)} you don't have to do this...'{pause(120)}" next
 	"'VARIK!!!{pause(50)} YOU DON'T HAVE TO DO THIS!!!'{pause(120)}{music(94)}" eob
 Ness_Bat: //use this for Ness' attacks, agrastios
@@ -41,13 +41,24 @@ Ness_Bat: //use this for Ness' attacks, agrastios
 Ness_PSI: //ditto
 	"@Ness uses PK Rockin'!" eob
 Ness_Brutal: //ditto
-	"@Ness beats you down onto the ground!" eob
+	"@Ness beats you down onto the ground!" eob //probably change this to either a self-healing attack or a PSI attack that gives you a random negative status
 Ness_Shotgun: //ditto
-	"@Ness pulls out a shotgun out of nowhere and starts shooting, no mercy!" eob
+	"@Ness pulls out a shotgun out of nowhere and starts shooting, no mercy!" eob //obviously, make this one much more appropriate
 A_Sign:
-	"@You feel as if something has changed in the area... {set(500)}" eob
+	"@You feel as if something has changed in the area... {set(500)}" end
 Lazy_Developers:
 	"@To rush the release of the hack before October 31st came around," next
 	"@the developers got lazy and left these new tilesets to be fixed in v2.1," next
 	"@so you'll have to walk around this passage by going up that walkway over there." next
 	"@This is why we don't rush things, people!" end
+Alternate_End_p1: //starts off like the other three courage cutscenes, meaning the screen should fade to white for the scene
+	"@You did it, Varik. You actually did it. You saved this man." next
+	"@All of his courage, restored." next
+	"@He can wake up now, safely knowing that what he did wasn't for nothing." next
+	"@All thanks to you. But, you must wake up first, before you possibly get trapped in his mind." next
+	"@We'll be seeing each other again, Varik. When you fall asleep again, I'll be there." next
+	"@Goodbye." eob //insert a code which triggers the "Leaving Magicant" scene right after the text box closes, then it will open up to Alternate_End_p2, which takes place in Andonuts' lab
+Alternate_End_p2:
+	"@The old man is sitting there, seems like he'll be awake soon." next
+	"@Best to leave him be for now." eob //It goes to Alternate_End_p3, which is pretty much a copy-paste of the normal ending cutscene from outside of the Lab, the only exception is that after the "A GHOST POOPED ON YOUR FACE" thing, it switches over to a bit of text thanking people for playing the Halloween Hack Redone, in which it gives a password for the locked file that contains all the credits for everything
+//Alternate_End_p3
