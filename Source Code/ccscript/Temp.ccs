@@ -49,8 +49,7 @@ A_Sign:
 Lazy_Developers:
 	"@To rush the release of the hack before October 31st came around," next
 	"@the developers got lazy and left these new tilesets to be fixed in v2.1," next
-	"@so you'll have to walk around this passage by going up that walkway over there." next
-	"@This is why we don't rush things, people!" end
+	"@so you'll have to walk around this passage by going up that walkway over there." end
 Alternate_End_p1: //starts off like the other three courage cutscenes, meaning the screen should fade to white for the scene
 	"@You did it, Varik. You actually did it. You saved this man." next
 	"@All of his courage, restored." next
