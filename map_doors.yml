@@ -4480,20 +4480,20 @@
   - Type: object
     X: 20
     Y: 27
-    Text Pointer: Lazy_Developers.Temp
+    Text Pointer: Temp.Lazy_Developers
   - Type: object
     X: 19
     Y: 28
-    Text Pointer: Lazy_Developers.Temp
+    Text Pointer: Temp.Lazy_Developers
   15:
   - Type: object
     X: 23
     Y: 27
-    Text Pointer: Lazy_Developers.Temp
+    Text Pointer: Temp.Lazy_Developers
   - Type: object
     X: 24
     Y: 28
-    Text Pointer: Lazy_Developers.Temp
+    Text Pointer: Temp.Lazy_Developers
   16:
   - Type: door
     Destination X: 103
